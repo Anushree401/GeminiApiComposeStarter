@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
             repository = GeminiRepositoryImpl(apiKey = BuildConfig.GEMINI_API_KEY),
             hasApiKey = BuildConfig.GEMINI_API_KEY.isNotBlank(),
         )
-    }
+    } //anushree n006 -comment1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
